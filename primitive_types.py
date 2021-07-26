@@ -20,7 +20,8 @@ def parity_calculator2(x:int) -> int:
     score =0 
     while x:
         score ^= 1
-        x &= x-1
+        x &= x-1 # droping the lowest set bit result : x&(x-1)
     return score 
 
 print(parity_calculator2(2^64))
+# time complexity O(k), k is the number of bit sets to 1 
