@@ -18,4 +18,5 @@ def partition(index: int , X:List[int]) -> None:
                 X[i],X[j]=X[j],X[i]
     return X
 
-print(partition(0,[0,1,2,0,2,1,1]))
+# print(partition(2,[0,1,2,0,2,1,1]))
+# result : [1, 0, 0, 1, 1, 2, 2]
