@@ -42,7 +42,7 @@ def partition2(pivot_index:int,X:List[int])-> None:
 # # result : [0, 0, 1, 1, 1, 2, 2]
 
 
-
+#Single Pass approach
 def partition3(pivot_index:int,X:List[int])->None:
     pivot = X[pivot_index]
     smaller,mid,larger = 0,0,len(X)
